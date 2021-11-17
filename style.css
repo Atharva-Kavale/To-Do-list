@@ -1,0 +1,119 @@
+*
+{
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 0.7s;
+}
+body
+{
+    background: url("bg.png");
+}
+fieldset
+{
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    margin: 0 100px;
+}
+h1
+{
+    background-color: rgba(251, 191, 201,0.5);
+}
+#field
+{
+    border-radius: 10px;
+    border: 1px solid;
+    height: 40px;
+}
+.lists
+{
+    display: flex;
+    margin: 0 50px;
+}
+.data
+{
+    position: relative;
+    min-height: 40px;  
+    margin-top: 10px;
+    margin-left: -30px;
+    padding: 5px 20px;
+    background: rgba(2, 116, 247, 0.5);
+    border-radius: 20px;
+    text-align: left;
+}
+.newdata
+{
+    min-height: 40px;   
+    margin-top: 10px;
+    margin-left: -30px;
+    padding: 5px 20px;
+    background: rgb(35, 211, 73);
+    border-radius: 20px;
+    text-align: left;
+}
+#ol-el
+{
+    list-style: none;
+    width: 50%;
+    margin-right: 10px;
+    word-wrap:break-word;
+}
+
+#com-el
+{
+    list-style: none;
+    border-left: 1px solid;
+    width: 50%;
+    word-wrap: break-word;
+
+}
+
+/* Button designs */
+button
+{
+    border-radius: 10px;
+    height: 20px;
+    padding: 10px 10px 30px 10px;
+    background: white;
+}
+
+#s-btn
+{
+    border: 2px solid green;
+}
+#s-btn:hover
+{
+    background: rgb(22, 214, 22);
+}
+#c-btn
+{
+    border: 2px solid red;
+}
+#c-btn:hover
+{
+    background: rgb(248, 79, 79);
+}
+
+.done
+{
+    border: 2px solid rgb(0, 132, 255) ;
+}
+.done:hover
+{
+    background: rgb(15, 162, 247);
+}
+.delete
+{
+    border: 2px solid red ;
+    float: right;
+}
+.delete:hover
+{
+    background: rgb(248, 79, 79);
+}
+.btn
+{
+    
+    position: absolute;
+    top: 5px;
+    left: 80%;
+}
